@@ -1,0 +1,107 @@
+.zadanie1 {
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 300px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hov:hover {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 250px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hov:hover {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 200px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hov:hover {
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .hov:hover {
+        background-color: purple;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hov:hover {
+        background-color: cyan;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 100px;
+    }
+
+    .hov:hover {
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .zadanie1 {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 200px;
+    }
+
+    .hov:hover {
+        background-color: coral;
+    }
+
+    .qweqwe {
+        display: flex;
+        list-style: none;
+        column-gap: 15px;
+    }
+
+    .cols {
+        columns: 2;
+        column-rule: dot-dash;
+    }
+
+    *{
+        font-size: 30px;
+    }
+    .cols:first-letter {
+        font-size: 12px !important;
+        color: black !important;
+
+    }
+}
+
+.cols:first-letter {
+    font-size: 25pt;
+    color: green;
+}
