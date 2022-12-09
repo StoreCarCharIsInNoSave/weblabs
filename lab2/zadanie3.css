@@ -1,0 +1,76 @@
+@media screen and  (max-width: 600px){
+    .bigtextcontainer{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.bigtextcontainer{
+margin-top: 50px;
+}
+[href="123значениеатрибута"]{
+    color: red;
+}
+[href$="ется"]{
+    color: red;
+}
+[href|="значение"]{
+    color: red;
+}
+[href*="един"]{
+    color: red;
+}
+.qw p:first-child{
+    background-color: green;
+    color: red;
+    font-size: 25px;
+}
+
+.qww p:last-child{
+    background-color: green;
+    color: red;
+    font-size: 25px;
+}
+.ww p:nth-child(even){
+    background-color: green;
+    color: red;
+    font-size: 25px;
+}
+
+.odd p:nth-child(odd){
+    background-color: green;
+    color: red;
+    font-size: 25px;
+}
+.n32 p:nth-child(3n+2){
+      background-color: green;
+      color: red;
+      font-size: 25px;
+  }
+.qqqaaaa p:not([value=""]){
+    color: yellow;
+    background-color: green;
+}
+.qqqaaaaaaa p:not(.target){
+    color: yellow;
+    background-color: green;
+}
+.v1{
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: hsl(50,60%,30%);
+}
+
+.v2{
+    border-radius: 50px;
+    border: 1px solid red;
+    background-color: hsla(50,30%,40%, 20%);
+
+}
+.v3{
+    border-radius: 50vh;
+    border: 1px solid red;
+    background-color: hsl(20,20%,10%);
+    color: white;
+
+}
