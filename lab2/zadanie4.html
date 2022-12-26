@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./zadanie4.css">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>3D Text</h1>
+<div>
+    <span class="letter">Ы</span>
+    это буквенница на псевдоклассах
+</div>
+<div>
+    <span class="nashadowax">Ы</span>
+    это буквенница на тенях
+</div>
+
+<div>
+    <h2 class="doubleshadow">На этом тексте лежат 2 тени, которые перечислены через запятую в ксс файле</h2>
+</div>
+
+
+<div style="background: linear-gradient(to bottom, #ff0000, #ffff00);">горизонтальный залив</div>
+<div style="background: linear-gradient(to bottom, #ff0000, #ffff00);">вертикальный залив</div>
+<div style="background: linear-gradient(to top right, #ff0000, #ffff00);">диагональный залив</div>
+<div style="background: linear-gradient(to right, #ff0000, #ffff00, #00ff00);">с несколькими цветами залив</div>
+<div style="background: radial-gradient(circle, #ff0000, #ffff00);">радиальный залив</div>
+<div style="display: flex; flex-direction: column">
+    заливка изображения градиентом
+    <img src="./assets/img.jpg" alt="" class="imggrad">
+</div>
+<div style="display: flex; flex-direction: column; align-items: center">
+    <div>фильтры</div>
+    <div style="display: flex; align-items: center; justify-content: center; column-gap: 10px" class="filter-container">
+        <div>
+            яркость
+            <img src="./assets/img.jpg" alt="" style="height: 250px; width: 150px;   filter: brightness(150%);"/>
+        </div>
+        <div>
+            контраст
+            <img src="./assets/img.jpg" alt="" style="height: 250px; width: 150px; filter: contrast(350%)"/>
+        </div>
+        <div>
+            монохром
+            <img src="./assets/img.jpg" alt="" style="height: 250px; width: 150px;  filter: grayscale(100%);"/>
+        </div>
+        <div>
+            блюр
+            <img src="./assets/img.jpg" alt="" style="height: 250px; width: 150px;  filter: blur(5px);"/>
+        </div>
+        <div>
+            насыщеность
+            <img src="./assets/img.jpg" alt="" style="height: 250px; width: 150px;filter: saturate(999%);"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

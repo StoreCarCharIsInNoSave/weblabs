@@ -1,0 +1,66 @@
+h1 {
+    padding: 20px;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #444;
+    text-shadow: 3px 3px 0 #fff,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    box-shadow: inset 0 0 0 3px #444,
+    inset 0 0 0 7px #ddd,
+    inset 0 0 0 12px #444,
+    inset 0 0 0 17px #ddd;
+    width: 410px;
+    background-color: gray;
+}
+
+.letter {
+    position: relative;
+    display: inline-block;
+}
+
+.letter:before,
+.letter:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+}
+
+.letter:before {
+    box-shadow: 0 0 10px #000;
+}
+
+.letter:after {
+    box-shadow: 0 0 10px #fff;
+}
+
+
+.nashadowax {
+    display: inline-block;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 2px 2px 0 #000;
+}
+
+.doubleshadow {
+    text-shadow: 5px 5px 10px #000000, -5px -5px 10px #ffa500;
+}
+
+.imggrad {
+    -webkit-mask: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    width: 150px;
+    height: 250px;
+}
+.filter-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

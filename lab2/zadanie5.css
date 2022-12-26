@@ -1,0 +1,136 @@
+
+.plav {
+    background-color: red;
+    transition: background-color 1s linear;
+}
+
+.plav:hover {
+    background-color: blue;
+}
+
+.zat {
+    transition: opacity 0.3s;
+}
+
+.zat:hover {
+    opacity: 0.1;
+}
+
+.razm {
+    transition: transform .5s;
+    width: 100px;
+}
+
+.razm:hover {
+    transform: scale(0);
+}
+
+.rot {
+    transition: transform .5s;
+    width: 100px;
+    margin: 70px 0;
+}
+
+.rot:hover {
+    transform: rotate(90deg);
+}
+
+.slid {
+    transition: transform .5s;
+
+}
+
+.slid:hover {
+    transform: translateX(-100%);
+}
+
+.siz {
+    transform: scale(5);
+    width: 40px;
+    margin-left: 100px;
+}
+
+.per {
+    transform: translate(100px, 50px);
+}
+
+.cent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vrass {
+    transform: rotate(45deg);
+    width: 50px;
+}
+
+.nak {
+    transform: skewY(20deg);
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+@media screen and (max-width: 300px) {
+    .sidebar {
+        display: none;
+    }
+}
+.testflex1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.testflex2{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.testflex3{
+    display: flex;
+}
+@media screen and (max-width: 900px){
+    .testflex3{
+        flex-direction: column;
+    }
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
